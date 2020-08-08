@@ -1,0 +1,29 @@
+{
+  "name": "chat-app-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chat.js",
+  "scripts": {
+    "start": "node chat.js",
+    "dev": "nodemon chat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meifius/chat-app-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meifius/chat-app-practice/issues"
+  },
+  "homepage": "https://github.com/meifius/chat-app-practice#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
